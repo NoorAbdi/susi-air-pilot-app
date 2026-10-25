@@ -8,21 +8,21 @@ A mobile-first web application built for Susi Air pilots to track flight hours, 
 * Node.js (v18+)
 * npm
 
-### 1. Start the Backend (NestJS)
-\`\`\`bash
+### Start the Backend (NestJS)
+```bash
 cd nest
 npm install
 npm run start:dev
-\`\`\`
+```
 The API runs at `http://localhost:3001`.
 
-### 2. Start the Frontend (Nuxt 3)
+### Start the Frontend (Nuxt 3)
 Open a separate terminal:
-\`\`\`bash
+```bash
 cd nuxt
 npm install
 npm run dev
-\`\`\`
+```
 The web app runs at `http://localhost:3000`.
 
 **Test Credentials:** 
