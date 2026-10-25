@@ -18,7 +18,7 @@
           v-model="username" 
           type="text" 
           required 
-          placeholder="e.g. budiluhur"
+          placeholder="e.g. johndoe"
           :disabled="isLoading"
         />
       </div>

@@ -9,9 +9,9 @@ export class PilotController {
   getPilotProfile() {
     const pilotData = this.dataService.flightHoursData.pilot;
     return {
-      name: 'Budi Luhur',
+      name: 'John Doe',
       totalFlightHours: pilotData.totalFlightHours,
-      avatarUrl: 'https://ui-avatars.com/api/?name=Budi+Luhur&background=0E2138&color=fff',
+      avatarUrl: 'https://ui-avatars.com/api/?name=John+Doe&background=0E2138&color=fff',
     };
   }
 
